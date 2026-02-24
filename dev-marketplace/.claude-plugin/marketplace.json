@@ -1,0 +1,15 @@
+{
+  "name": "dev-market-place",
+  "description": "Dev Market Place",
+  "owner": {
+    "name": "Yongbin Kim",
+    "email": "rladydqls12@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "dev-team-plugin",
+      "description": "Dev Team Plugin",
+      "source": "./plugins/dev-team-plugin"
+    }
+  ]
+}
