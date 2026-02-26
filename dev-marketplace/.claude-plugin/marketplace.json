@@ -10,6 +10,11 @@
       "name": "dev-team-plugin",
       "description": "Dev Team Plugin",
       "source": "./plugins/dev-team-plugin"
+    },
+    {
+      "name": "frontend-develop",
+      "description": "Frontend Development Plugin — planning, coding, design, and code review agents for React-based FSD projects (Next.js, TanStack Start, Vite, CRA, etc.)",
+      "source": "./plugins/frontend-develop"
     }
   ]
 }
