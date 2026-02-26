@@ -4,5 +4,50 @@
   "version": "1.0.0",
   "author": {
     "name": "Yongbin Kim"
-  }
+  },
+  "agents": [
+    "devops-infra-architect",
+    "final-reviewer",
+    "negative-code-reviewer",
+    "nestjs-backend-developer",
+    "pm-document-architect",
+    "positive-code-reviewer",
+    "project-setter",
+    "react-fsd-developer",
+    "react-native-developer",
+    "tdd-test-engineer",
+    "tech-teacher-ko"
+  ],
+  "skills": [
+    "ci-cd",
+    "design-guide",
+    "docker-compose",
+    "docker-file",
+    "explain",
+    "fsd-form",
+    "fsd-page",
+    "fsd-query",
+    "fsd-slice",
+    "fsd-widget",
+    "nest-auth",
+    "nest-crud",
+    "nest-dto",
+    "nest-exception",
+    "nest-guard",
+    "nest-prisma",
+    "nginx-conf",
+    "prd",
+    "review-bad",
+    "review-final",
+    "review-good",
+    "rn-form",
+    "rn-list",
+    "rn-platform",
+    "rn-screen",
+    "task-list",
+    "test-api",
+    "test-component",
+    "test-e2e",
+    "test-unit"
+  ]
 }
