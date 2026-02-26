@@ -4,5 +4,17 @@
   "version": "1.0.0",
   "author": {
     "name": "Yongbin Kim"
+  },
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PLUGIN_ROOT/hooks/log-code-feedback.sh\""
+          }
+        ]
+      }
+    ]
   }
 }
