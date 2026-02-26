@@ -55,6 +55,27 @@ Approve / Approve with Suggestions / Request Changes / Reject 중 하나를 선�
 
 ---
 
+## 훅
+
+### 코드 피드백 로거
+사용자가 AI의 코드 구현 방식에 대해 재요청할 때 자동으로 로그를 기록합니다.
+
+**이벤트:** `UserPromptSubmit` (before)
+
+**감지 패턴:**
+- 거부/변경: `말고`, `대신`, `바꿔`, `변경해`, `아니고`, `instead of`, `don't use`, `switch to` 등
+- 로그 요청: `로그 남겨`, `기록 남겨`, `메모해줘` 등
+
+**로그 저장 위치:** `프로젝트루트/docs/code-feedback-log.md`
+
+**예시:**
+```
+사용자: "useState 말고 useForm 사용해서 구현해줘"
+→ docs/code-feedback-log.md에 자동 기록
+```
+
+---
+
 ## 권장 워크플로우
 
 ### 신규 기능 개발
@@ -75,6 +96,8 @@ frontend-planner (screen-analysis → task-breakdown → priority-matrix)
 ---
 
 ## 코딩 규칙 카테고리 (62개)
+
+> 출처: [vercel-labs/agent-skills - react-best-practices](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices)
 
 - `async-*` (5개): 비동기 처리, Promise.all, Suspense
 - `bundle-*` (5개): 동적 import, 배럴 최적화, 프리로드
